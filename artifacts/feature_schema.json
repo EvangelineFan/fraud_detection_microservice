@@ -1,0 +1,22 @@
+{
+    "feature_order": [
+        "amount",
+        "oldbalanceOrg",
+        "newbalanceOrig",
+        "oldbalanceDest",
+        "newbalanceDest",
+        "log_amount",
+        "amount_to_balance_ratio",
+        "tx_count_last_1_step",
+        "tx_count_last_5_steps",
+        "avg_amount_last_x",
+        "amount_vs_recent_avg",
+        "is_cash_out_or_transfer",
+        "risky_tx_ratio_last_x",
+        "type_CASH_OUT",
+        "type_DEBIT",
+        "type_PAYMENT",
+        "type_TRANSFER"
+    ],
+    "n_features": 17
+}

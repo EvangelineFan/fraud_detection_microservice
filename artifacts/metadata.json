@@ -1,0 +1,29 @@
+{
+    "model_type": "xgboost",
+    "training_date_utc": "2026-02-13T03:23:27.808102",
+    "train_rows": 4453834,
+    "validation_rows": 954393,
+    "test_rows": 954393,
+    "features_used": [
+        "amount",
+        "oldbalanceOrg",
+        "newbalanceOrig",
+        "oldbalanceDest",
+        "newbalanceDest",
+        "log_amount",
+        "amount_to_balance_ratio",
+        "tx_count_last_1_step",
+        "tx_count_last_5_steps",
+        "avg_amount_last_x",
+        "amount_vs_recent_avg",
+        "is_cash_out_or_transfer",
+        "risky_tx_ratio_last_x",
+        "type_CASH_OUT",
+        "type_DEBIT",
+        "type_PAYMENT",
+        "type_TRANSFER"
+    ],
+    "test_roc_auc": 0.9992445134004421,
+    "test_pr_auc": 0.7695863491259791,
+    "notes": "Velocity features included. Time-based split."
+}

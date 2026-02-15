@@ -1,0 +1,6 @@
+{
+    "threshold": 0.9912784695625305,
+    "selection_method": "recall_at_99pct",
+    "test_recall": 0.9997506234413965,
+    "test_precision": 0.7697772657450077
+}

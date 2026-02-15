@@ -1,0 +1,48 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ----------------------------
+# Virtual environment
+# ----------------------------
+venv/
+.env/
+.envrc
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data files (large / local only)
+# ----------------------------
+data/
+*.csv
+*.parquet
+
+# ----------------------------
+# Model artifacts (optional: keep or ignore)
+# ----------------------------
+# If you want to keep metadata + threshold but not large model binaries,
+# comment/uncomment accordingly
+
+# artifacts/
+# *.model
+# *.json
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
