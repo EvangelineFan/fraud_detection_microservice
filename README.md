@@ -1,5 +1,13 @@
 # Fraud Detection System – XGBoost + Production Simulation
 
+## 🎥 Video Walkthrough
+
+A full walkthrough of the project, including feature engineering decisions, model training, and how production considerations are factored into ML system design:
+
+▶️ **YouTube:** [Watch the full walkthrough](https://youtu.be/RtydKrwOhsM?si=dVnywMQM5aqQuXjo)
+
+---
+
 ## Overview
 
 This project implements an end-to-end fraud detection pipeline using the PaySim synthetic transaction dataset.  
